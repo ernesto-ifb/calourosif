@@ -1,0 +1,834 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Nunito, sans-serif;
+    position: relative;
+    /* overflow-x: hidden; */
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #2B2B2B;
+    margin-top: auto;
+    align-items: left;
+    display: flex;
+    color: #fff;
+    height: 100%;
+}
+
+.imagi {
+    width: 7em;
+    height: 4em;
+    margin-top: 1.5em;
+}
+
+header {
+    background-color: #353535;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logocalouros {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.if {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.bem-vindos {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.verde {
+    font-size: 3.5em;
+    color: #36963F;
+    margin-top: 0.2em;
+    margin-bottom: 0.3em;
+}
+
+.vermelho {
+    font-size: 3.5em;
+    color: #C8102E;
+    margin-top: 0.2em;
+}
+
+.NO {
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.nossoObj {
+    width: 100%;
+    height: auto;
+}
+
+.nossoObj-container {
+    position: relative;
+    margin-left: 100px;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    bottom: 235px;
+}
+
+.FAQ {
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.faq {
+    width: 100%;
+    height: auto;
+}
+
+.faq-container {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+.QS {
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 37px;
+}
+
+.qs {
+    width: 100%;
+    height: auto;
+}
+
+.qs-container {
+    position: relative;
+    left: 1000px;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    bottom: 465px;
+
+}
+
+.SIG {
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.siglas {
+    width: 100%;
+    height: auto;
+}
+
+.siglas-container {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    top: -465px;
+}
+
+.ferramentas-container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -280px;
+    display: inline-block;
+}
+
+.CAL {
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.calendario {
+    width: 100%;
+    height: auto;
+}
+
+.calendario-container {
+    position: relative;
+    left: 1000px;
+    width: 200px;
+    height: auto;
+    /* margin-top: auto; */
+    display: inline-block;
+    top: 10px;
+
+}
+
+.MAP {
+    font-size: 22px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.mapa {
+    width: 100%;
+    height: auto;
+}
+
+.mapa-container {
+    position: relative;
+    left: 100px;
+    width: 200px;
+    height: auto;
+    /* margin-top: auto; */
+    display: inline-block;
+    top: -235px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li {
+    list-style-type: none;
+}
+
+.resp {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F9E41;
+}
+
+.home {
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    margin-left: 600px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aliRes, .maryRes, .josephRes, .gabRes{
+ display: none;
+}
+
+.logoifbCrop {
+    width: 10%;
+    height: auto;
+    /* position: relative; */
+    align-self: center;
+    margin-bottom: -250px;
+}
+
+.ali {
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.aliali {
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-left: -860px;
+    color: #2F9E41;
+    margin-top: 40px;
+    /* color: #fff;
+    stroke-width: 10px; */
+
+}
+
+.mary {
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-left: 970px;
+    margin-top: -560px;
+}
+
+.marymary {
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-left: 830px;
+    color: #CB2127;
+}
+
+.joseph {
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.jojo {
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-left: -850px;
+    top: -1px;
+    color: #2F9E41;
+}
+
+.gab {
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -500px;
+}
+
+.gabgab {
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    margin-left: 900px;
+    color: #CB2127;
+}
+
+.ernestoncio {
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -530px;
+}
+
+.ernesto {
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    color: #004AAD;
+}
+
+
+.Tobj {
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #2F9E41;
+    text-align: center;
+}
+
+.faquinho {
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: center;
+}
+
+.bvindo {
+    font-size: 1.4em;
+    font-family: Nunito, sans-serif;
+    color: #2F9E41;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.ç1 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.insc {
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ç2 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.loc {
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ç3 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.curs {
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ç4 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ep {
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ç5 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.pe {
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ç6 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.com {
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ç7 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.psico {
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.ç8 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    color: #CB2127;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.hor {
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    color: #004AAD;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.faquizinho {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.verd {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 116px;
+    left: 0;
+}
+
+.vermei {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    bottom: 88px;
+    right: 0;
+}
+
+.objetivooo {
+    font-size: 1.8em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.OQueSignificam {
+    font-size: 2.5em;
+    position: relative;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    color: #2F9E41;
+}
+
+.AnNupe,
+.CGAE,
+.NEAD,
+.PI,
+.CBRA,
+.RA,
+.AVA,
+.PRPI,
+.NUGED,
+.NEABI,
+.NAPNE,
+.SGA {
+    font-size: 1.8em;
+    font-family: Nunito, sans-serif;
+    color: #3B7097;
+    text-align: left;
+    margin-left: 1em;
+}
+
+.annupe,
+.cgae,
+.nead,
+.pi,
+.cbra,
+.ra,
+.ava,
+.prpi,
+.nuged,
+.neabi,
+.napne,
+.sga {
+    margin-left: 1em;
+    font-size: 1.3em;
+    text-align: left;
+    color: #2F9E41;
+}
+
+.siglinhas {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.emas {
+    font-size: 1.3em;
+    color: #fff;
+    line-height: 1.2;
+    /* Ajuste conforme necessário */
+    margin-top: 2em;
+}
+
+.emas a {
+    text-decoration: none;
+    color: inherit;
+    cursor: auto;
+    /* Isso desativa o cursor de link fora do texto */
+}
+
+.siteIF,
+.portal {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    /* Alterado para block para garantir que cada link ocupe uma linha inteira */
+    /* padding: -0.5em; */
+    position: relative;
+    /* Adicionado para garantir que z-index funcione */
+    z-index: 1;
+    /* Ajuste conforme necessário */
+}
+
+.siteIF {
+    margin-left: -16em;
+    /* Ajuste conforme necessário */
+    margin-top: 5em;
+}
+
+.portal {
+    margin-left: -7.7em;
+    /* Ajuste conforme necessário */
+    margin-top: 7em;
+    padding: 0.1;
+}
+
+.produção {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+}
+
+/* @media only screen and (max-width: 361px){
+    .aliRes{
+        top: 550px;
+        left: -20px;
+        width: 110%;
+    }
+    .maryRes{ 
+        top: 790px;
+        width: 105%;
+    } 
+    .josephRes{
+        top: 1050px;
+        width: 110%;
+        left: -10px;
+    }
+    .gabRes{
+        top: 1350px;
+        width: 75%;
+        left: 60px;
+    }
+    .aliRes, .maryRes, .josephRes, .gabRes{
+        display: block;
+        position: relative;
+        
+       }
+} 
+
+@media screen and (max-width: 500px) and (min-width: 403px){
+    .aliRes{
+        top: 420px;
+        left: -20px;
+        width: 110%;
+    }
+    .maryRes{ 
+        top: 690px;
+        width: 105%;
+    } 
+    .josephRes{
+        top: 950px;
+        width: 110%;
+        left: -10px;
+    }
+    .gabRes{
+        top: 1250px;
+        width: 75%;
+        left: 60px;
+    }
+}
+*/
+
+@media screen and (max-width: 1200px) {
+
+    /* header */
+    .if {
+        width: 240px;
+        top: 17px;
+    }
+
+    /* body */
+    .verde,
+    .vermelho {
+        font-size: 44px;
+    }
+
+    .faq-container {
+        top: 250px;
+        left: 22px;
+    }
+
+    .qs-container {
+        top: 25px;
+        left: 120px;
+        width: 45%;
+    }
+
+    .ferramentas {
+        width: 350px;
+    }
+
+    .ferramentas-container {
+        top: 355px;
+    }
+
+    .mapa-container {
+        top: 10px;
+    }
+
+    .siglas-container {
+        top: 100px;
+        left: 10px;
+    }
+
+    .calendario-container {
+        left: 100px;
+        top: 1000px;
+        padding-bottom: 40%;
+    }
+
+    .verd,
+    .vermei {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .home {
+        color: #000000;
+        left: -452px;
+        top: 100px;
+    }
+
+    /* Nosso Objetivo */
+    .objetivooo {
+        font-size: 1.4em;
+        /* font-weight: bold; */
+    }
+
+    .Tobj {
+        font-size: 2.5em;
+        padding-top: 10%;
+    }
+
+    /* Siglas */
+    .OQueSignificam {
+        font-size: 2.3em;
+        padding-top: 10%;
+    }
+
+    .AnNupe,
+    .CGAE,
+    .NEAD,
+    .PI,
+    .CBRA,
+    .RA,
+    .AVA,
+    .PRPI,
+    .NUGED,
+    .NEABI,
+    .NAPNE,
+    .SGA {
+        font-weight: bold;
+    }
+    /* Quem somos (fudeu) */
+    .logoifbCrop{
+        width: 40%;
+        top: -230px;
+        left: 15px;
+        position: relative;
+    }
+    .ali, .mary, .joseph, .gab, .ernestoncio {
+        width: 60%;
+        height: auto;
+        flex-direction: column;
+    }
+    .marymary, .aliali, .jojo, .gabgab{
+        display: none;
+    }
+    .ali{ /* imagem */
+        top: 290px;
+        left:-55px;
+    }
+    .aliRes{
+        top: 600px;
+        left: -20px;
+        width: 110%;
+    }
+    .mary{ /* imagem */
+        left: -890px;
+        top: 1150px;
+    } 
+    .maryRes{ 
+        top: 840px;
+        width: 105%;
+    } 
+    .joseph{ /* imagem */
+        top: 1420px;
+        left: -5px;
+    }
+    .josephRes{
+        top: 1150px;
+        width: 110%;
+        left: -10px;
+    }
+    .gab{/* imagem */
+        left: -915px;
+        top: 2250px;
+    }
+    .gabRes{
+        top: 1480px;
+        width: 75%;
+        left: 60px;
+    }
+    .ernestoncio{ /* imagem */
+        top: 3150px;
+        padding-bottom: 5%;
+    }
+    .ernesto{ /* texto */
+    top: 3150px;
+    padding-bottom: 5%;
+    }
+    .aliRes, .maryRes, .josephRes, .gabRes{
+        display: block;
+        position: relative;
+        
+       }
+    /* Produção */
+    .produção{
+       font-size: 3em;
+    }
+    
+}
