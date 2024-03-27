@@ -80,6 +80,7 @@ header {
 .nossoObj {
     width: 100%;
     height: auto;
+    margin-left: -25px;
 }
 
 .nossoObj-container {
@@ -94,18 +95,21 @@ header {
 .FAQ {
     font-size: 22px;
     margin-top: 5px;
-    text-align: center;
-    margin-left: 70px;
+    /* text-align: center; */
+    margin-left: 80px;
 }
 
 .faq {
     width: 100%;
     height: auto;
+    margin-left: -75px;
 }
 
 .faq-container {
     position: relative;
     margin: 0 auto;
+    margin-bottom: -30px;
+    /* margin-left: 500px; */
     width: 200px;
     height: auto;
     display: inline-block;
@@ -121,6 +125,7 @@ header {
 .qs {
     width: 100%;
     height: auto;
+    margin-left: -30px;
 }
 
 .qs-container {
@@ -143,6 +148,7 @@ header {
 .siglas {
     width: 100%;
     height: auto;
+    margin-left: -60px;
 }
 
 .siglas-container {
@@ -170,6 +176,7 @@ header {
 .calendario {
     width: 100%;
     height: auto;
+    margin-left: -45px;
 }
 
 .calendario-container {
@@ -193,6 +200,7 @@ header {
 .mapa {
     width: 100%;
     height: auto;
+    margin-left: -10px;
 }
 
 .mapa-container {
@@ -256,7 +264,7 @@ li {
     font-size: 1.3em;
     font-family: Nunito, sans-serif;
     text-align: center;
-    margin-left: -860px;
+    margin-left: -36em;
     color: #2F9E41;
     margin-top: 40px;
     /* color: #fff;
