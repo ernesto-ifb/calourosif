@@ -17,6 +17,9 @@ footer {
     color: #fff;
     height: 100%;
 }
+.rodape{
+    margin-top: -300px;
+}
 
 .imagi {
     width: 7em;
@@ -162,7 +165,7 @@ header {
 .ferramentas-container {
     position: relative;
     margin: 0 auto;
-    margin-top: -280px;
+    margin-top: -360px;
     display: inline-block;
 }
 
@@ -264,11 +267,9 @@ li {
     font-size: 1.3em;
     font-family: Nunito, sans-serif;
     text-align: center;
-    margin-left: -36em;
+    margin-left: -44em;
     color: #2F9E41;
     margin-top: 40px;
-    /* color: #fff;
-    stroke-width: 10px; */
 
 }
 
@@ -276,8 +277,8 @@ li {
     width: 20%;
     height: auto;
     position: relative;
-    margin-left: 970px;
-    margin-top: -560px;
+    margin-left: 1000px;
+    margin-top: -580px;
 }
 
 .marymary {
@@ -302,7 +303,7 @@ li {
     font-size: 1.3em;
     font-family: Nunito, sans-serif;
     text-align: center;
-    margin-left: -850px;
+    margin-left: -990px;
     top: -1px;
     color: #2F9E41;
 }
@@ -311,7 +312,7 @@ li {
     width: 20%;
     height: auto;
     position: relative;
-    margin-left: 1000px;
+    margin-left: 1050px;
     margin-top: -500px;
 }
 
@@ -320,7 +321,7 @@ li {
     font-size: 1.3em;
     font-family: Nunito, sans-serif;
     text-align: center;
-    margin-left: 900px;
+    margin-left: 980px;
     color: #CB2127;
 }
 
@@ -329,7 +330,7 @@ li {
     height: auto;
     position: relative;
     margin: 0 auto;
-    margin-top: -530px;
+    margin-top: -580px;
 }
 
 .ernesto {
@@ -338,8 +339,27 @@ li {
     font-family: Nunito, sans-serif;
     text-align: center;
     color: #004AAD;
-}
+    
 
+}
+.estevao{
+    width: 20%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    top: -1320px;
+}
+.geladeira4portas{
+    position: relative;
+    font-size: 1.3em;
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    color: #004AAD;
+    top: -1300px;
+}
+.rodapeWe{
+    margin-top: -500px;
+}
 
 .Tobj {
     font-size: 3.5em;
@@ -627,55 +647,6 @@ li {
     font-size: 5em;
 }
 
-/* @media only screen and (max-width: 361px){
-    .aliRes{
-        top: 550px;
-        left: -20px;
-        width: 110%;
-    }
-    .maryRes{ 
-        top: 790px;
-        width: 105%;
-    } 
-    .josephRes{
-        top: 1050px;
-        width: 110%;
-        left: -10px;
-    }
-    .gabRes{
-        top: 1350px;
-        width: 75%;
-        left: 60px;
-    }
-    .aliRes, .maryRes, .josephRes, .gabRes{
-        display: block;
-        position: relative;
-        
-       }
-} 
-
-@media screen and (max-width: 500px) and (min-width: 403px){
-    .aliRes{
-        top: 420px;
-        left: -20px;
-        width: 110%;
-    }
-    .maryRes{ 
-        top: 690px;
-        width: 105%;
-    } 
-    .josephRes{
-        top: 950px;
-        width: 110%;
-        left: -10px;
-    }
-    .gabRes{
-        top: 1250px;
-        width: 75%;
-        left: 60px;
-    }
-}
-*/
 
 @media screen and (max-width: 1200px) {
 
@@ -703,11 +674,7 @@ li {
     }
 
     .ferramentas {
-        width: 350px;
-    }
-
-    .ferramentas-container {
-        top: 355px;
+        display: none;
     }
 
     .mapa-container {
@@ -743,7 +710,7 @@ li {
     /* Nosso Objetivo */
     .objetivooo {
         font-size: 1.4em;
-        /* font-weight: bold; */
+    
     }
 
     .Tobj {
@@ -778,7 +745,7 @@ li {
         left: 15px;
         position: relative;
     }
-    .ali, .mary, .joseph, .gab, .ernestoncio {
+    .ali, .mary, .joseph, .gab, .ernestoncio{
         width: 60%;
         height: auto;
         flex-direction: column;
@@ -787,46 +754,46 @@ li {
         display: none;
     }
     .ali{ /* imagem */
-        top: 290px;
+        top: -30px;
         left:-55px;
     }
-    .aliRes{
-        top: 600px;
+    .aliRes{/* texto */
+        top: 1300px;
         left: -20px;
         width: 110%;
     }
     .mary{ /* imagem */
-        left: -890px;
-        top: 1150px;
+        left: -920px;
+        top: 1100px;
     } 
-    .maryRes{ 
-        top: 840px;
+    .maryRes{ /* texto */
+        top: 480px;
         width: 105%;
     } 
     .joseph{ /* imagem */
         top: 1420px;
         left: -5px;
     }
-    .josephRes{
-        top: 1150px;
+    .josephRes{/* texto */
+        top: 830px;
         width: 110%;
         left: -10px;
     }
     .gab{/* imagem */
-        left: -915px;
-        top: 2250px;
+        left: -970px;
+        top: 2350px;
     }
-    .gabRes{
-        top: 1480px;
+    .gabRes{/* texto */
+        top: 1300px;
         width: 75%;
         left: 60px;
     }
     .ernestoncio{ /* imagem */
-        top: 3150px;
+        top: 3450px;
         padding-bottom: 5%;
     }
     .ernesto{ /* texto */
-    top: 3150px;
+    top: 3500px;
     padding-bottom: 5%;
     }
     .aliRes, .maryRes, .josephRes, .gabRes{
@@ -838,5 +805,6 @@ li {
     .produção{
        font-size: 3em;
     }
-    
+    /* vlibras */
+
 }
