@@ -267,7 +267,7 @@ li {
     font-size: 1.3em;
     font-family: Nunito, sans-serif;
     text-align: center;
-    margin-left: -44em;
+    margin-left: -38em;
     color: #2F9E41;
     margin-top: 40px;
 
@@ -277,7 +277,7 @@ li {
     width: 20%;
     height: auto;
     position: relative;
-    margin-left: 1000px;
+    margin-left: 950px;
     margin-top: -580px;
 }
 
@@ -287,6 +287,7 @@ li {
     font-family: Nunito, sans-serif;
     text-align: center;
     margin-left: 830px;
+    margin-top: 50px;
     color: #CB2127;
 }
 
@@ -294,7 +295,7 @@ li {
     width: 20%;
     height: auto;
     position: relative;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 80px;
 }
 
@@ -303,7 +304,7 @@ li {
     font-size: 1.3em;
     font-family: Nunito, sans-serif;
     text-align: center;
-    margin-left: -990px;
+    margin-left: -870px;
     top: -1px;
     color: #2F9E41;
 }
@@ -312,7 +313,7 @@ li {
     width: 20%;
     height: auto;
     position: relative;
-    margin-left: 1050px;
+    margin-left: 980px;
     margin-top: -500px;
 }
 
@@ -321,7 +322,7 @@ li {
     font-size: 1.3em;
     font-family: Nunito, sans-serif;
     text-align: center;
-    margin-left: 980px;
+    margin-left: 900px;
     color: #CB2127;
 }
 
@@ -330,7 +331,7 @@ li {
     height: auto;
     position: relative;
     margin: 0 auto;
-    margin-top: -580px;
+    margin-top: -500px;
 }
 
 .ernesto {
@@ -347,7 +348,7 @@ li {
     height: auto;
     position: relative;
     margin: 0 auto;
-    top: -1340px;
+    top: -1270px;
 }
 .geladeira4portas{
     position: relative;
@@ -355,7 +356,7 @@ li {
     font-family: Nunito, sans-serif;
     text-align: center;
     color: #004AAD;
-    top: -1300px;
+    top: -1250px;
 }
 .rodapeWe{
     margin-top: -500px;
@@ -763,7 +764,7 @@ li {
         width: 110%;
     }
     .mary{ /* imagem */
-        left: -920px;
+        left: -880px;
         top: 1100px;
     } 
     .maryRes{ /* texto */
@@ -780,7 +781,7 @@ li {
         left: -10px;
     }
     .gab{/* imagem */
-        left: -970px;
+        left: -900px;
         top: 2350px;
     }
     .gabRes{/* texto */
